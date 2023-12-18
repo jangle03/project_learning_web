@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đổi mật khẩu</title>
+    <link rel="icon" href="../Anh/nedatach.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/Doi_mat_khau.css">
+    <link rel="stylesheet" href="../css/Menu.css">
+
+</head>
+<body>
+    <!-- / menu -->
+    <div class="bangmot">
+        <nav class="container">
+            <div class="infor">
+                <img class="logokhoa" src="../Anh/nedatach.png" alt="">
+                <h2>LUANZANG</h2>
+            </div>
+            
+            <ul class="box-menu">
+
+                <li class="thanhconmenu icon monhoc">
+                    <img class="muiten" src="../gif/but.gif" alt="">
+                    <a href="#">Môn học</a>
+                    <ul class="sub-menu">
+                        <li><a href="#" onclick="Html()">HTML</a></li>
+                        <li><a href="Trang_chu.html">CSS</a></li>
+                        <li><a href="#" onclick="Js()">JS</a></li>
+                    </ul>
+                </li>
+
+                <li class="thanhconmenu icon hotro">
+                    <img class="muiten" src="../gif/connect.gif" alt="">
+                    <a href="Lien_he.html">Liên hệ</a>
+            
+                </li>
+
+                <li class="thanhconmenu icon taikhoan">
+                    <img class="muiten" src="../gif/ngoinha.gif" alt="">
+
+                    <a href="#" id="nameUser">name</a>
+                    <ul class="sub-menu">
+                        <li><a href="#" onclick="Hs()">Hồ sơ</a></li>
+                        <li><a href="Doi_mat_khau.html">Đổi mật khẩu</a></li>
+                        <li><a href="TEXT.html" id="logout">ĐĂNG XUẤT</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        
+    </div>
+<!-- bang doi mat khau -->
+
+<div id="bocmatkhau">
+    <div class="bocmatkhau-con">
+        <div class="tieude">
+            <h3>Đổi mật khẩu</h3>
+        </div>
+        <div class="doimatkhau">
+            <div class="doimatkhau-input">
+                <label for="">Mật Khẩu Hiện Tại</label> <br>
+                <input type="password" id="password">
+            </div>
+    
+            <div class="doimatkhau-input">
+                <label for="">Mật Khẩu Mới</label><br>
+                <input type="password" id="new_password">
+    
+            </div>
+    
+            <div class="doimatkhau-input">
+                <label for="">Nhập Lại Mật Khẩu</label> <br>
+                <input type="password" id="nhap_lai_password">
+    
+            </div>
+            <div class="doimatkhau-input">
+                <button type="submit" class="save-doimk" onclick="luu_mat_khau()">Lưu Thay Đổi</button>
+            </div>
+        </div>
+    </div>
+
+    <script language="javascript" src="../Js/Dang_xuat.js"></script>
+    <script language="javascript" src="../Js/Doi_ten.js"></script>
+    <script language="javascript" src="../Js/Thong_bao_html_css_ho_so.js"></script>
+    <script language="javascript" src="../Js/Can_tro_Login.js"></script>
+</div>
+</body>
+</html>

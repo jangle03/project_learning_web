@@ -1,0 +1,203 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(212, 237, 247);
+}
+
+/* -------------------bang2 QS--------------------------------- */
+
+
+.banghai{
+    width: 100%;  
+    background-color: rgb(212, 237, 247);
+}
+
+.bangcauhoi{
+    width: 80%;
+    height: auto;
+    background-color: #fff;
+    margin: 100px auto;
+    
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 0 20px #ffffff,
+                0 0 40px rgb(180, 226, 255),
+                0 0 80px rgb(180, 226, 255),
+                0 0 100px #fff;
+
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dienDA , .motDA , .nDA {
+    padding-left: 100px;
+}
+
+.nhapcauhoi_bangchonloai{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.o_nho_cauhoi_loaicauhoi{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 60%;
+}
+/* --------------phan opsition----------- */
+.OptionQues{
+    flex: 30%;
+    margin-left: 50px;
+}
+select{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px dotted rgb(73, 73, 73);
+
+}
+
+.OptionQues select:focus{
+    height: 40px;
+    margin-top: -5px;
+    transition: 0.25s ease;
+    border: 2px solid gray;
+    background-color: #f3f2f2;
+}
+
+select option{
+    top: 100px;
+}
+
+/* --------------------nhap caiu houi---------------------- */
+  .nhapcauhoi_bangchonloai .o_nho_cauhoi_loaicauhoi textarea {
+    width: 100%;
+    padding: 10px 0;
+    padding-top: 15px;
+    border: none;
+    border-bottom: 1px dashed black;
+    outline: none;
+    resize: none;
+    background-color: #f8f8f9;
+    overflow: hidden;
+    height: 10px;
+  }
+  .o_nho_cauhoi_loaicauhoi textarea:hover{
+    background-color: #f3f2f2;
+    
+}
+  .nhapcauhoi_bangchonloai .o_nho_cauhoi_loaicauhoi textarea:focus{
+    border-bottom: 3px solid rgb(0, 165, 220);
+  }
+  .o_nho_cauhoi_loaicauhoi label {
+    position: absolute;
+    top:0;
+    left: 20px;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .o_nho_cauhoi_loaicauhoi textarea:focus ~ label,
+  .o_nho_cauhoi_loaicauhoi textarea:valid ~ label {
+    top: -27px;
+    left: -5px;
+    font-size: 17px;
+  }
+
+/* -----------------dien dap an -------------------------- */
+
+.dienDA{
+    margin-top: 50px;
+    position: relative;
+}
+.input-input{
+    margin-top: 20px;
+    width: 62%;
+    transition: .5s;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding-left: 20px;
+}
+
+.inout-label{
+    position: absolute;
+    top: 63%;
+    transform: translateY(-50%);
+    left: 22px;
+    user-select: none;
+    color: black;
+}
+
+
+/* placholder-shown để khi thoát khỏi focus  thẻ label vẫn giữ nguyên trên cùng */
+.input-input:not(:placeholder-shown) + .inout-label,
+.input-input:focus + .inout-label{
+    top: 20px;
+    display: inline-block;
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+}
+
+
+
+/* -----------mot dap an ------------------- */
+
+.input-mot-nhieuDA{
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+input[type="number"] {
+  appearance: textfield;
+}
+
+
+/*  */
+.show_motDA textarea{
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: #f8f8f9;
+    width: 62%;
+    border: 0px solid black;
+    outline: none;
+    resize: none;
+    border-bottom: 1px dashed black;
+    transition: .5s;
+    height: 15px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+
+.show_motDA label {
+
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  pointer-events: none;
+  transition: .3s;
+}
+.show_motDA textarea:hover{
+    background-color: #e5e5e5;
+}
+.show_motDA textarea:focus{
+    border-bottom: 2.5px dashed gray;
+    
+}
+
+
+
+

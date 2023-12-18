@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+   padding: 0;
+}
+/* -------------------------------bảng 2 ------------------------*/
+.banghai{
+    height: auto;
+    display: inline-block;
+    background-color: #BFEAF5;
+   
+}
+.nutsubject{
+    display: flex;
+    width: 100%;
+    
+}
+.nutsubject > div{
+    background-color: #fff;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #d3d9df;
+    margin: auto 15px;
+}
+.nutbaihoc>a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: canada-type-gibson, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0;
+    text-transform: uppercase;
+}
+
+
+.banghai marquee {
+    color: chocolate;
+    margin-top: 80px;
+    font-family:cursive;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+/* ----------hieninput---------------- */
+.hieninput {
+    display: flex;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+
+.infomon img{
+    width: 500px;
+    height: 500px;
+    margin-top: -40px;
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+    transform: scale(0.7);
+
+}
+
+.infomon img:hover{
+    opacity: 0.9;
+}
+
+.bocinput{
+    margin-left: 150px;
+} 
+
+.bocinput {
+    display: inline;
+}
+
+.bocinput a {
+    text-decoration: none;
+}
+.item{
+    width: 350px;
+    height: 80px;
+    background-color: #eff1fa;
+    border-color: black;
+    border-radius: 0.375rem;
+    border-style: solid;
+    border-width: 0 0 0 5px;
+    line-height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+}
+.fa-solid:before {
+    content: "";
+    display: inline-block;
+    padding: 30px 20px;
+   
+    
+
+}
+
+#admin{
+    display: flex;
+    display: none;
+}
+
+.item, #admin a {
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+    
+}
+.item:focus{
+    color: black;
+
+}
+.item:hover {
+    margin: 1px 0 0 0;
+    height: 100px;
+    background-color: rgb(0, 255, 145);
+    transition: 0.5s;
+    box-shadow: 0 0 10px 0 rgb(0, 255, 145) ;
+}
+
+
+
+/* .custom-cursor {
+    cursor: url('../gif/wired-outline-1106-birthday-hat.gif'),auto;
+} */

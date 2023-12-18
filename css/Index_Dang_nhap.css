@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tong{
+    height: 100;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-color: #e6f2ff;
+}
+
+.tong-img {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+.tong-img img {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+}
+.khung{
+    width: 100%;
+    height: 100vh;
+    margin: 0px 0px 0px 20px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 20px;
+    text-align: justify;
+
+}
+
+/* phan khung gioi thieu */
+.khung > p{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: justify;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.gioithieu{
+  margin-top: 60px;
+}
+
+.anhdemo{
+    object-fit: cover;  
+}
+
+
+.bocthanhvien{
+    width: 100%;
+    height: 250px;
+    border: 1px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.cv{
+    width: 150px;
+    object-fit: cover;
+    border-radius: 60px;
+}
+
+
+.nut:hover + img {
+    display: block;
+    display: flex;
+}
+
+#boc{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    
+    margin-top: 100px;
+    background-color: #5a82b199;
+    box-shadow: 0 0 5px #76a3bf, 0 0 20px #6899ba, 0 0 30px #b3cee2, 0 0 80px #e4eef6;
+}
+
+.gioithieu p{
+    font-weight: bold;
+}
+
+#boc p{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px #6e8392;
+  margin-bottom: 40px;
+}
+
+
+.gioithieu img{
+    width: 50%;
+    padding-left: 150px;
+    transform: rotate(26deg);
+}
+ /* ----------------------------trang dang nhap--------------------------- */
+.user-box {
+    position: relative;
+  }
+  
+  .user-box img{
+    width: 10px;
+    height: 10px;
+  }
+  .user-box input {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+
+ 
+  .user-box input:focus{
+    border-color: black;
+    color: #fff;
+  }
+   .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+.user-box input:focus ~ label,
+  .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+
+.Vaotrangchu{
+  font-size: 15px;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+   background-color: rgb(0, 112, 182);
+   color: #fff;
+   border: none;
+   transition: .3s;
+
+}
+
+.Vaotrangchu:hover{
+   background-color: rgb(0, 88, 142);
+  font-size: 20px;
+  box-shadow: 0 0 10px #3ab5f3;
+
+}
+
+#bocSignup{
+   width: 100%;
+   text-align: center;
+   margin-top: 50px;
+
+}
+ #bocSignup .input, a{
+   width: 70px;
+   height: 30px;
+   border-radius: 2px;
+   border: none;
+   text-decoration: none;
+  /* background-color: #fff; */
+
+}    
+#bocSignup button:hover {
+
+  background-color: #e3dede;
+
+}
+
+
+.Vaotrangchu:active{
+    background-color: #ffd6da;
+}
+
+
+.chaomung h1{
+  background-color: #E6F2FF;
+  text-align: center;
+  font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px #6baddd;
+
+}

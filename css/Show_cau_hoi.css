@@ -1,0 +1,164 @@
+
+.show_nDA textarea{
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #f8f8f9;
+    width: 62%;
+    border: 0px solid black;
+    outline: none;
+    resize: none;
+    border-bottom: 1px dashed black;
+    transition: .5s;
+    height: 15px;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+
+.show_nDA label {
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  pointer-events: none;
+  transition: .3s;
+}
+.show_nDA textarea:hover{
+    background-color: #e5e5e5;
+}
+.show_nDA textarea:focus{
+    border-bottom: 2.5px dashed gray;
+    
+}
+
+.loaicauhoi > ul > li{
+    height: 30px;
+    padding: 10px;
+    background-color: azure;
+}
+
+#question{
+    width: 500px;
+    height: 50px;
+}
+
+
+
+#optItem{
+    width: 300px;
+    height: auto;
+    margin: 5px;
+}
+table.bang_show_ketqua {
+    width: 80%;
+    margin:auto 10%;
+    margin-top: 70px;
+    padding-top: 100px;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    background-color: #fff;
+  }
+
+tr{
+    border: 1px solid black;
+  }
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    
+  }
+
+th{
+    background-color: rgb(221, 252, 68);
+    
+  }
+
+.option{
+    width: 800px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+#answer{
+    width: 800px;
+    height: 100px;
+}
+
+.show_motDA input {
+    transform: translate(-50%, -50%);
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+.show_nDA input {
+    transform: translate(-50%, -50%);
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+/* -----------------------------tbody----------------------- */
+
+tbody>tr>td>button{
+    border: 1px solid black;
+    border-radius:  3px;
+    padding: 5px;
+}
+tbody>tr>td>button:nth-child(1){
+    background-color: lightgray;
+
+}
+tbody>tr>td>button:nth-child(2){
+    background-color: rgb(221 129 129);
+
+}
+tbody>tr>td>button:nth-child(3){
+    background-color: lightblue;
+
+}
+
+
+tbody>tr>td>button:nth-child(1):hover{
+    background-color: rgb(117, 117, 117);
+    transition: .2s;
+    color: #fff;
+    border: none;
+    box-shadow: 0 0 7px 0 rgb(81, 81, 81);
+
+
+}
+
+tbody>tr>td>button:nth-child(2):hover{
+
+
+    background-color: rgb(230, 51, 51);
+    transition: .2s;
+    color: #fff;
+    border: none;
+    box-shadow: 0 0 7px 0 rgb(221 129 129);
+
+}
+tbody>tr>td>button:nth-child(3):hover{
+    background-color: rgb(1, 160, 212);
+    transition: .2s;
+    color: #fff;
+    border: none;
+    box-shadow: 0 0 7px 0 rgb(23, 94, 118);
+
+}
+
+
+/* --------ketqua--------- */
+
+.bangketqua{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 170px;
+    right: 350px;
+    background-color:aqua;
+}
+

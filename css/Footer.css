@@ -1,0 +1,43 @@
+.bangba {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.footer {
+    width: 100%;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+
+.footer-con-dau ul {
+    display: flex;
+}
+
+.footer-con-dau ul li{
+    list-style: none;
+    
+}
+.footer-con-dau ul li>p,h4{
+    line-height: 30px;
+}
+.footer-con-dau ul li p:hover{
+    color: black;
+    padding-left: 10px;
+    transition: 0.2s;
+}
+.footer-con-dau ul li h4:hover{
+    color: black;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+.aboutus{
+    flex: 2;
+}
+.ketthuc{
+    display: flex;
+    justify-content: center;
+}

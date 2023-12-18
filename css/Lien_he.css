@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(200, 229, 238);
+}
+*{
+    margin: 0;
+}
+
+/* <!-- -----------------------------lien he --------------------------> */
+.bangba{
+    background-color: #fff;
+}
+
+.hotro-item{
+    margin-top: 100px;
+    width: 100%;
+    
+}
+/* lien he */
+
+/* gthieu */
+
+.hotro-text{
+    width: 100%;
+    background: linear-gradient(to right, #ffffffc4, #f6b5b5c7);
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px dashed #fff;
+    margin-bottom: 70px;
+    margin-top: 30px;
+
+}
+.gthieu p {
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: -7px 3px 7px rgb(120 121 121 / 71%);
+}
+
+.chung{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.diachi a{
+    text-decoration: none;
+}
+.diachi a:hover{
+    color: #005a86;
+}
+
+
+

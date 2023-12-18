@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="icon" href="../Anh/nedatach.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/Dang_ky.css">
+</head>
+<body>
+    <div id="boc"> 
+        <p>Đăng Kí</p>
+
+        <div class="user-box">
+            <input type="text" id="name"  required="">
+            <label for="name">Tên đăng nhập</label>
+        </div>
+
+        <div class="user-box">
+          <input type="password" id="password"  required="">
+          <label for="password">Mật Khẩu</label>
+        </div>
+
+        <div class="user-box">
+          <input type="password" id="passwordd"  required="">
+          <label for="passwordd"> Nhập lại Mật Khẩu</label>
+        </div>    
+        
+        <div>
+            <input type="checkbox" value="HienMatkhau" id="checkboxs"> 
+            <label for="checkboxs" id="hien_mat_khau">
+                Hiện mật khẩu
+            </label>
+        </div>
+        <button type="button" class="Vaodangki"> Tiếp tục </button><br>
+
+        <div id="bocSignup">
+            Bạn đã có tài khoản?
+            <button type="button" class="input" onclick="check()"><a href="Index_Dang_nhap.html">Login</a></button>
+        </div>
+    </div>
+
+    <script language="javascript" src="../Js/Dang_ky.js"></script>
+    <script language="javascript" src="../Js/Can_tro_Login.js"></script>
+
+    
+</body>
+</html>
+
+

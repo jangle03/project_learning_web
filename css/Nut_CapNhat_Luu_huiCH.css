@@ -1,0 +1,20 @@
+
+.bangcauhoi button {
+    padding: 10px;
+    border-radius: 9px;
+    background-color: rgb(238, 238, 238);
+    font-weight: bold;
+    box-shadow:  -5px 11px 14px 0px rgb(117 117 117);
+    float: right;
+}
+
+
+
+.bangcauhoi button:hover{
+    background-color: rgb(166, 166, 166);
+    transition: 0.5s ease;
+    /* border: 2px solid rgb(79, 79, 79); */
+    border: none;
+    box-shadow: 0 0 10px 0 #fff;
+}
+

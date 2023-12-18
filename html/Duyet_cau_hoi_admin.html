@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm câu hỏi</title>
+    <link rel="icon" href="../Anh/nedatach.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/Gui_cau_hoi.css">
+    <link rel="stylesheet" href="../css/Menu.css">
+    <link rel="stylesheet" href="../css/Duyet_cau_hoi_admin.css">
+    <link rel="stylesheet" href="../css/Chi_tiet_CH-gui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="bangmot">
+        <nav class="container">
+            <div class="infor">
+                <img class="logokhoa" src="../Anh/nedatach.png" alt="">
+                <h2>LUANZANG</h2>
+            </div>
+            
+            <ul class="box-menu">
+
+                <li class="thanhconmenu icon monhoc">
+                    <img class="muiten" src="../gif/but.gif" alt="">
+                    <a href="#">Môn học</a>
+                    <ul class="sub-menu">
+                        <li><a href="#" onclick="Html()">HTML</a></li>
+                        <li><a href="Trang_chu.html">CSS</a></li>
+                        <li><a href="#" onclick="Js()">JS</a></li>
+                    </ul>
+                </li>
+
+                <li class="thanhconmenu icon hotro">
+                    <img class="muiten" src="../gif/connect.gif" alt="">
+                    <a href="Lien_he.html">Liên hệ</a>
+            
+                </li>
+
+                <li class="thanhconmenu icon taikhoan">
+                    <img class="muiten" src="../gif/ngoinha.gif" alt="">
+                    <a href="#" id="nameUser">name</a>
+                    <ul class="sub-menu">
+                        <li><a href="#" onclick="Hs()">Hồ sơ</a></li>
+                        <li><a href="Doi_mat_khau.html">Đổi mật khẩu</a></li>
+                        <li><a href="TEXT.html" id="logout">ĐĂNG XUẤT</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        
+    </div>
+    <div class="text-duyet-ch">Duyệt câu hỏi của admin</div>
+    <div id="show-kq" style="position: relative;">
+        <table class="bang_duyet_CH_admin">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Người gửi</th>
+                    <th>Câu hỏi</th>
+                    <th>Đáp án đúng</th>
+                    <th>Trạng thái</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Danh sách các câu hỏi -->
+            </tbody>
+        </table>
+
+        <div class="showCH" style="display: none;" >
+            <div class="thoat">
+                <a href="#" onclick="thoat()"><i class="fa-solid fa-x"></i></a>
+            </div>
+                <!-- bảng -->
+            <div class="bangchitiet">
+                <h1>Chi Tiết Câu Hỏi</h1>
+                <div class="loaiCH">
+                    <p id="xem_chi_tiet_loai_cau_hoi">loại câu hỏi</p>
+                </div>
+                <table id="bang_xem_chi_tiet">
+                    <tr>
+                        <td>Tài khoản gửi</td>
+                        <td id="xem_chi_tiet_nguoi_gui">Ten ng gui</td>
+                    </tr>
+                    <tr>
+                        <td>Thời gian</td>
+                        <td id="xem_chi_tiet_time">gffds</td>
+                    </tr>
+                    <tr>
+                        <td> Câu hỏi</td>
+                        <td id="xem_chi_tiet_cau_hoi">d</td>
+                    </tr>
+                    <tr>
+                        <td>Các đáp án</td>
+                        <td id="xem_chi_tiet_dap_an">loại điền đáp án thì bỏ tronngs loại điền đáp án thì bỏ tronngs loại điền đáp án thì bỏ tronngs loại điền đáp án thì bỏ tronngs loại điền đáp án thì bỏ tronngs</td>
+                    </tr>
+                    <tr>
+                        <td>Đáp án đúng</td>
+                        <td id="xem_chi_tiet_dap_an_dung"></td>
+                    </tr>
+                    <tr>
+                        <td>Trạng thái</td>
+                        <td id="xem_chi_tiet_trang_thai"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+<script language="javascript" src="../Js/Chi_tiet_cauhoi_admin.js"></script>
+<script language="javascript" src="../Js/Duyet_cau_hoi_admin.js"></script>
+<script language="javascript" src="../Js/Doi_ten.js"></script>
+<script language="javascript" src="../Js/Thong_bao_html_css_ho_so.js"></script>
+<script language="javascript" src="../Js/Dang_xuat.js"></script>
+<script language="javascript" src="../Js/Can_tro_Login.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+}
+
+.showCH {
+    width: 100%;
+    max-width: 650px;
+    background: linear-gradient(237deg, #ff96a5, #ffffff);;
+    border-radius: 20px;
+    box-shadow: 0 0 300px 5px rgb(198 0 0 / 80%);
+    line-height: 10px;
+}
+/* ------ dau x------- */
+.showCH .thoat .fa-solid {
+    content: "df";
+    float: right;
+    font-size: 20px;
+    background-color: black;
+    padding: 10px 12px;
+    border-radius: 50%;
+    color: #fff;
+}
+.showCH .thoat .fa-solid:hover {
+    content: "";
+    background-color: #e4e4e4da;
+    color: black;
+}
+.showCH .thoat .fa-solid:focus{
+    content: "";
+    color: black;
+}
+
+
+
+/* ------------------------- */
+.showCH>div {
+    padding: 30px;
+}
+.bangchitiet {
+    /* width: 80%; */
+    display: inline-block;
+    text-align: center;
+
+}
+
+.bangchitiet h1{
+    color: black;
+    text-shadow: 2px 2px gray;
+}
+
+.loaiCH{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 40px;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bang_xem_chi_tiet{
+    border-collapse: collapse;
+    display: inline-block;
+    text-align: center;
+}
+
+#bang_xem_chi_tiet tr {
+    width: 50%;
+    background-color: #fff;
+}
+#bang_xem_chi_tiet tr td{
+    border:  1px solid gray;
+    padding: 13px 10px;
+}
+
+
+
+#bang_xem_chi_tiet tr td:nth-child(1){
+    /* color: blue; */
+    width: 150px;
+    /* text-transform: capitalize; */
+    font-weight: 600;
+    font-size: 16px;
+    background-color: aliceblue;
+
+}
+
+#bang_xem_chi_tiet tr td:nth-child(2):hover {
+    font-size: 19px;
+    transition: 0.3s;
+    color: black;
+    /* background-color: rgb(116, 94, 97); */
+    background-color: rgb(242, 236, 236);  
+}
+
+#bang_xem_chi_tiet tr td:nth-child(2){
+    width: 500px;
+    font-size: 17px;
+    font-family:monospace;
+}
+
+.showCH{
+    position: absolute;
+    /* top: -10px;
+    left: 350px; */
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+
+

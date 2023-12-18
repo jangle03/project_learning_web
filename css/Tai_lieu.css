@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(200, 229, 238);
+}
+
+*{
+    margin: 0;
+}
+
+/* bang hai cua trang tai lieu */
+.banghai{
+    text-align: center;
+    margin-bottom: 200px;
+
+}
+.bangtailieu{
+    background-color: #fff;
+    width: 80%;
+    height: auto; 
+    margin-top: 100px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 #88d3f9;
+
+}
+.bangtailieu a.bocauhoicss{
+    color: rgb(35, 5, 5);
+    background-color: rgb(224 91 91 / 38%);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.bangtailieu a.bocauhoicss:hover{
+    text-decoration: underline;
+    color: #fff;
+    transition: 0.3s;
+    box-shadow: 0 0 15px rgb(255, 137, 157);
+}
+
+
+.bangtailieu p{
+    font-size: 12px;
+}
+.bangtailieu h1 {
+    padding-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 0 5px rgb(62, 61, 61);
+    padding-bottom: 40px;
+}
+.bangtailieu h1:hover {
+    color: #9e0606;
+    text-shadow: 0 0 8px rgb(131, 131, 131);
+}
+
+.tailieupdf{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.tailieuthamkhao{
+    flex: 1;
+
+}
+
+.tailieuthamkhao a{
+    color: rgb(115, 11, 115);
+    display: block;
+    line-height: 30px;
+    background-color: rgb(121 219 126);
+    box-shadow: 0 0 10px rgb(50 70 50 / 65%);
+    padding: 10px;
+    margin: 30px 70px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.tailieuthamkhao a:hover{
+    background-color: rgb(85, 149, 88);
+    transition: 0.3s;
+    color: aqua;
+
+}

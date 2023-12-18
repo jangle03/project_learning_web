@@ -1,0 +1,130 @@
+
+.hotro-item .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotro-item .container .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius:10px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.hotro-item .container .card{
+    background: linear-gradient(rgb(234, 160, 173), rgb(184, 220, 255) 30%, rgb(116, 132, 186) 30%, #fff);
+}
+
+
+.hotro-item .container .card .img-tv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: 0.5s;
+    z-index: 100;
+    border-radius: 10px;
+    box-shadow:  0 10px 12px rgb(249, 133, 133);
+}
+
+.hotro-item .container .card:hover .img-tv{
+    transition: 0.8s;
+    transform: translateY(-40px) scale(0.4);
+}
+
+.hotro-item .container .card .img-tv img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .card .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    transform: translateY(1005);
+    transition: 0.8s;
+}
+
+.container .card:hover .content {
+    transform: translateY(0);
+}
+
+.container .card .content .noi-dung {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 250px;
+
+}
+
+.container .card .content .noi-dung h2{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.container .card .content .noi-dung h2 span {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+.container .card:nth-child(2) .content .img-tv h2  span {
+    color: pink;
+}
+.noi-dung-icon{
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+    padding-left: 0;
+}
+.noi-dung-icon li {
+    list-style: none;
+    margin: 4px;
+}
+
+.noi-dung-icon li ::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: black; */
+    font-size: 30px
+
+}
+.fa-brands, .fa-regular{
+    color: rgb(78, 16, 78);
+}
+.fa-brands:hover{
+    color: rgb(52, 177, 255);
+
+
+}
+.fa-regular:hover{
+    /* color: rgb(118, 166, 182); */
+    color: rgb(52, 177, 255);
+
+}
+
+
+
+
+
+
+
